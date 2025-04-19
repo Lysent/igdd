@@ -7,6 +7,7 @@ Nicery is a turn-based tactical strategy game.
 - [Tiles](#tile)
 - [Unit Abilities](#abilities)
 - [UI](#ui)
+
 [Gameplay Mechanics](#gameplay)
 - [Hacking](#hacking)
 ## <u>Core Mechanics</u> <a name="core"></a>
@@ -60,12 +61,13 @@ An object on a tile is interactable by a unit. For instance, this could be spare
 | Persistance  | Bool  |     | Does the object dissipate after all uses are expended. |
 | Uses         | Int   |     | How many uses an object has.                           |
 |              |       |     |                                                        |
-### Unit Abilities
+### Unit Abilities <a name="abilities"></a>
 Units can have several abilities used by either their attack instance or interaction instance. 
 ### UI <a name="ui"></a>
 ![UI Version 1](./img/ui-v1.png)
+<a href="./img/ui-v1.png">Link to image.</a>
 
-## <u>Gameplay Mechanics</u>
+## <u>Gameplay Mechanics</u> <a name="gameplay"></a>
 ### Hacking <a name="hacking"></a>
 Hacking is an ability that can be used by some units.
 #### Hacking Units
