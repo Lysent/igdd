@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex"/>
+    <meta name="robots" content="noindex" />
     <title>Nicery Game Document</title>
     <link rel="icon" href="../styles/favicon/reversteam.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles/styles.css">
     <script type="module" src="../src/content.js" defer></script>
 </head>
+
 <body>
     <header>
         <nav>
-            <img src="../styles/favicon/reversteam.webp">
-            <h1>ReversTeam</h1>
+            <div class="brand">
+                <img src="../styles/favicon/reversteam.webp">
+                <h1>Lysemi Studios</h1>
+            </div>
+
+            <div class="theme">
+                <div>Theme</div>
+                <select>
+                    <option value="creation">Creation</option>
+                    <option value="destruction">Destruction</option>
+                    <option value="modification">Modification</option>
+                    <option value="replacement">Replacement</option>
+                    <option value="control">Control</option>
+                    <option value="chaos">Chaos</option>
+                    <option value="rebirth">Rebirth</option>
+                    <option value="eos">Rebirth - End of All</option>
+                </select>
+            </div>
         </nav>
     </header>
     <main>
         <div id="content"></div>
     </main>
 </body>
+
 </html>
